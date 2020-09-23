@@ -1,0 +1,12 @@
+{
+  "NavigationChart": {
+    "centerElementRadius": {
+      "max": 20,
+      "min": 5
+    },
+    "gapToOutsideRingRadius": 10,
+    "outsideRingRadius": 10,
+    "insideRingRadius": 5,
+    "useValueForAngle": false
+  }
+}

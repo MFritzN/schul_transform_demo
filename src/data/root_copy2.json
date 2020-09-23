@@ -1,0 +1,806 @@
+{
+  "name": "main",
+  "color": "#ffff",
+  "children": [
+    {
+      "name": "Ziele, Visionen und Bewusstsein",
+      "color": "#7B217F",
+      "children": [
+        {
+          "name": "Strategie- und Profilentwicklung",
+          "color": "#66B32E",
+          "children": [],
+          "sourceData": [
+            {
+              "group": "Teacher",
+              "questionTag": "PlanA",
+              "answer": 60
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "PlanA",
+              "answer": 50
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "PlanB",
+              "answer": 40
+            },
+            {
+              "group": "Principal",
+              "questionTag": "PlanB",
+              "answer": 20
+            }
+          ]
+        },
+        {
+          "name": "Schulkultur",
+          "color": "#00600f",
+          "children": [],
+          "sourceData": [
+            {
+              "group": "Schafkopfen",
+              "questionTag": "Ramsch",
+              "answer": 100
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "Ramsch",
+              "answer": 100
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "Solo",
+              "answer": 20
+            },
+            {
+              "group": "Principal",
+              "questionTag": "Solo",
+              "answer": 20
+            }
+          ]
+        },
+        {
+          "name": "Diagnostik und Förderung (Umgang mit Vielfalt)",
+          "color": "#00600f",
+          "children": [],
+          "sourceData": [
+            {
+              "group": "Teacher",
+              "questionTag": "E-Mail",
+              "answer": 60
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "E-Mail",
+              "answer": 50
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "E-Mail",
+              "answer": 40
+            },
+            {
+              "group": "Principal",
+              "questionTag": "E-Mail",
+              "answer": 20
+            }
+          ]
+        },
+        {
+          "name": "Innovation und Kommunikation",
+          "color": "#00600f",
+          "children": [],
+          "sourceData": [
+            {
+              "group": "Teacher",
+              "questionTag": "Overhead Projektor",
+              "answer": 85
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "Overhead Projektor",
+              "answer": 90
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "Overhead Projektor",
+              "answer": 80
+            },
+            {
+              "group": "Principal",
+              "questionTag": "Overhead Projektor",
+              "answer": 20
+            }
+          ]
+        },
+        {
+          "name": "Strategien zur Qualitätsentwicklung (Evaluationsprozesse)",
+          "color": "#00600f",
+          "children": [],
+          "sourceData": [
+            {
+              "group": "Teacher",
+              "questionTag": "Eleternabend",
+              "answer": 60
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "Eleternabend",
+              "answer": 50
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "Eleternabend",
+              "answer": 50
+            },
+            {
+              "group": "Principal",
+              "questionTag": "Eleternabend",
+              "answer": 70
+            }
+          ]
+        },
+        {
+          "name": "Zusammenarbeit mit anderen Akteuren (Netzwerke ausleben)",
+          "color": "#00600f",
+          "children": [],
+          "sourceData": [
+            {
+              "group": "Teacher",
+              "questionTag": "Teams",
+              "answer": 20
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "Teams",
+              "answer": 15
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "Teams",
+              "answer": 10
+            },
+            {
+              "group": "Principal",
+              "questionTag": "Teams",
+              "answer": 70
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Leadership",
+      "color": "#274093",
+      "children": [
+        {
+          "name": "Schulorganisation (Führung im 21. Jh., Leitungs-Team, Abläufe, Vielfalt...)",
+          "color": "#00600f",
+          "children": [],
+          "sourceData": [
+            {
+              "group": "Teacher",
+              "questionTag": "Fax Nutzung",
+              "answer": 100
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "Fax Nutzung",
+              "answer": 100
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "Fax Nutzung",
+              "answer": 100
+            },
+            {
+              "group": "Principal",
+              "questionTag": "Fax Nutzung",
+              "answer": 100
+            }
+          ]
+        },
+        {
+          "name": "Führung und Planung im Umsetzungsprozess der Schultransformation",
+          "color": "#00600f",
+          "children": [],
+          "sourceData": [
+            {
+              "group": "Teacher",
+              "questionTag": "Planung",
+              "answer": 30
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "Planung",
+              "answer": 35
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "Planung",
+              "answer": 40
+            },
+            {
+              "group": "Principal",
+              "questionTag": "Planung",
+              "answer": 55
+            }
+          ]
+        },
+        {
+          "name": "Kooperation & Netzwerk",
+          "color": "#00600f",
+          "children": [],
+          "sourceData": [
+            {
+              "group": "Teacher",
+              "questionTag": "Planung",
+              "answer": 10
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "Planung",
+              "answer": 25
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "Planung",
+              "answer": 40
+            },
+            {
+              "group": "Principal",
+              "questionTag": "Planung",
+              "answer": 77
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Personalentwicklung und berufsbegleitende Professionalisierung",
+      "color": "#50AE32",
+      "children": [
+        {
+          "name": "Kompetenzentwicklung für das Lernen und Lehren in der digitalen Welt",
+          "color": "#00600f",
+          "children": []
+        },
+        {
+          "name": "Spezifische Weiter- und Fortbildungen",
+          "color": "#00600f",
+          "children": []
+        },
+        {
+          "name": "Mikroschulungen und Peer to Peer Angebote",
+          "color": "#00600f",
+          "children": []
+        },
+        {
+          "name": "Fortbildungskooperationen im Netzwerk",
+          "color": "#00600f",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Schulische Lernräume (Ausstattung und Support)",
+      "color": "#E52420",
+      "children": [
+        {
+          "name": "Infrastruktur und Ausstattung",
+          "color": "#00600f",
+          "children": [
+            {
+              "name": "Internetzugang",
+              "color": "#d32f2f",
+              "children": [
+                {
+                  "name": "WLAN",
+                  "color": "#1976d2",
+                  "children": [],
+                  "sourceData": [
+                    {
+                      "group": "Teacher",
+                      "questionTag": "WIFI Quality",
+                      "answer": 10
+                    },
+                    {
+                      "group": "Teacher",
+                      "questionTag": "WIFI Quality",
+                      "answer": 15
+                    },
+                    {
+                      "group": "Teacher",
+                      "questionTag": "WIFI Quality",
+                      "answer": 20
+                    },
+                    {
+                      "group": "Teacher",
+                      "questionTag": "WIFI Quality",
+                      "answer": 18
+                    },
+                    {
+                      "group": "Teacher",
+                      "questionTag": "WIFI Quality",
+                      "answer": 11
+                    },
+                    {
+                      "group": "Teacher",
+                      "questionTag": "WIFI Quality",
+                      "answer": 13
+                    },
+                    {
+                      "group": "Teacher",
+                      "questionTag": "WIFI Quality",
+                      "answer": 50
+                    },
+                    {
+                      "group": "Principal",
+                      "questionTag": "WIFI Quality",
+                      "answer": 90
+                    },
+                    {
+                      "group": "Principal",
+                      "questionTag": "WIFI Quality",
+                      "answer": 85
+                    },
+                    {
+                      "group": "Principal",
+                      "questionTag": "WIFI Quality",
+                      "answer": 90
+                    },
+                    {
+                      "group": "Principal",
+                      "questionTag": "WIFI Quality",
+                      "answer": 86
+                    },
+                    {
+                      "group": "Principal",
+                      "questionTag": "WIFI Speed",
+                      "answer": 70
+                    },
+                    {
+                      "group": "Principal",
+                      "questionTag": "WIFI Speed",
+                      "answer": 80
+                    },
+                    {
+                      "group": "Principal",
+                      "questionTag": "WIFI Speed",
+                      "answer": 85
+                    },
+                    {
+                      "group": "Teacher",
+                      "questionTag": "WIFI Speed",
+                      "answer": 20
+                    },
+                    {
+                      "group": "Teacher",
+                      "questionTag": "WIFI Speed",
+                      "answer": 10
+                    },
+                    {
+                      "group": "Teacher",
+                      "questionTag": "WIFI Speed",
+                      "answer": 0
+                    },
+                    {
+                      "group": "Teacher",
+                      "questionTag": "WIFI Speed",
+                      "answer": 5
+                    },
+                    {
+                      "group": "Teacher",
+                      "questionTag": "WIFI Speed",
+                      "answer": 3
+                    },
+                    {
+                      "group": "Principal",
+                      "questionTag": "WIFI Password",
+                      "answer": 100
+                    },
+                    {
+                      "group": "Principal",
+                      "questionTag": "WIFI Password",
+                      "answer": 95
+                    },
+                    {
+                      "group": "Principal",
+                      "questionTag": "WIFI Password",
+                      "answer": 90
+                    },
+                    {
+                      "group": "Teacher",
+                      "questionTag": "WIFI Password",
+                      "answer": 80
+                    },
+                    {
+                      "group": "Teacher",
+                      "questionTag": "WIFI Password",
+                      "answer": 90
+                    },
+                    {
+                      "group": "Teacher",
+                      "questionTag": "WIFI Password",
+                      "answer": 83
+                    },
+                    {
+                      "group": "Teacher",
+                      "questionTag": "WIFI Password",
+                      "answer": 87
+                    },
+                    {
+                      "group": "Teacher",
+                      "questionTag": "WIFI Password",
+                      "answer": 86
+                    },
+                    {
+                      "group": "Teacher",
+                      "questionTag": "WIFI Password",
+                      "answer": 95
+                    },
+                    {
+                      "group": "Principal",
+                      "questionTag": "WIFI Usage",
+                      "answer": 30
+                    },
+                    {
+                      "group": "Principal",
+                      "questionTag": "WIFI Usage",
+                      "answer": 35
+                    },
+                    {
+                      "group": "Principal",
+                      "questionTag": "WIFI Usage",
+                      "answer": 55
+                    },
+                    {
+                      "group": "Principal",
+                      "questionTag": "WIFI Usage",
+                      "answer": 45
+                    },
+                    {
+                      "group": "Teacher",
+                      "questionTag": "WIFI Usage",
+                      "answer": 80
+                    },
+                    {
+                      "group": "Teacher",
+                      "questionTag": "WIFI Usage",
+                      "answer": 15
+                    },
+                    {
+                      "group": "Teacher",
+                      "questionTag": "WIFI Usage",
+                      "answer": 20
+                    },
+                    {
+                      "group": "Teacher",
+                      "questionTag": "WIFI Usage",
+                      "answer": 40
+                    },
+                    {
+                      "group": "Teacher",
+                      "questionTag": "WIFI Usage",
+                      "answer": 35
+                    },
+                    {
+                      "group": "Teacher",
+                      "questionTag": "WIFI Usage",
+                      "answer": 30
+                    },
+                    {
+                      "group": "Teacher",
+                      "questionTag": "WIFI Usage",
+                      "answer": 50
+                    },
+                    {
+                      "group": "Teacher",
+                      "questionTag": "WIFI Usage",
+                      "answer": 5
+                    }
+                  ]
+                },
+                {
+                  "name": "Mobilfunk",
+                  "color": "#1976d2",
+                  "children": []
+                },
+                {
+                  "name": "Geschwindigkeit",
+                  "color": "#1976d2",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Hardware",
+              "color": "#512da8",
+              "children": []
+            },
+            {
+              "name": "Software",
+              "color": "#1976d2",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Intelligente Lernräume",
+          "color": "#6abf69",
+          "children": [
+            {
+              "name": "Overhead",
+              "color": "#1976d2",
+              "children": []
+            },
+            {
+              "name": "Tafeln",
+              "color": "#1976d2",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Datenschutz (aktuelle Maßnahmen)",
+          "color": "#00600f",
+          "children": []
+        },
+        {
+          "name": "Interoperabilität (aktuelle Maßnahmen)",
+          "color": "#00600f",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Lernortübergreifendes Lernen (Ausstattung und Support)",
+      "color": "#A6529A",
+      "children": [
+        {
+          "name": "Lernsysteme",
+          "color": "#00600f",
+          "children": [],
+          "sourceData": [
+            {
+              "group": "Teacher",
+              "questionTag": "Tafelersatz",
+              "answer": 10
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "Tafelersatz",
+              "answer": 80
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "Tafelersatz",
+              "answer": 50
+            },
+            {
+              "group": "Principal",
+              "questionTag": "Tafelersatz",
+              "answer": 95
+            }
+          ]
+        },
+        {
+          "name": "Ausstattungsmodelle und Unterstützung",
+          "color": "#00600f",
+          "children": [],
+          "sourcedata": [
+            {
+              "group": "Teacher",
+              "questionTag": "Digitalanteil",
+              "answer": 60
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "Digitalanteil",
+              "answer": 50
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "Digitalanteil",
+              "answer": 40
+            },
+            {
+              "group": "Principal",
+              "questionTag": "Digitalanteil",
+              "answer": 20
+            }
+          ]
+        },
+        {
+          "name": "Finanzierungsmodelle",
+          "color": "#fbc02d",
+          "children": []
+        },
+        {
+          "name": "Ausgewählte Rechtsgrundlagen (Haftung)",
+          "color": "#fbc02d",
+          "children": []
+        },
+        {
+          "name": "Datenschutz (aktuelle Maßnahmen)",
+          "color": "#fbc02d",
+          "children": []
+        },
+        {
+          "name": "Interoperabilität (aktuelle Maßnahmen)",
+          "color": "#fbc02d",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Unterricht",
+      "color": "#ED6D1C",
+      "children": [
+        {
+          "name": "Methodik bzw. pädagogische Konzepte von zeitgemäßen Unterricht",
+          "color": "#00600f",
+          "children": [],
+          "sourceData": [
+            {
+              "group": "Teacher",
+              "questionTag": "Tafelersatz",
+              "answer": 10
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "Tafelersatz",
+              "answer": 80
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "Tafelersatz",
+              "answer": 50
+            },
+            {
+              "group": "Principal",
+              "questionTag": "Tafelersatz",
+              "answer": 95
+            }
+          ]
+        },
+        {
+          "name": "Medienbildungskonzept",
+          "color": "#00600f",
+          "children": [],
+          "sourceData": [
+            {
+              "group": "Teacher",
+              "questionTag": "Digitalanteil",
+              "answer": 60
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "Digitalanteil",
+              "answer": 50
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "Digitalanteil",
+              "answer": 40
+            },
+            {
+              "group": "Principal",
+              "questionTag": "Digitalanteil",
+              "answer": 20
+            }
+          ]
+        },
+        {
+          "name": "Geeignete Inhalte finden und nutzen",
+          "color": "#fbc02d",
+          "children": [],
+          "sourceData": [
+            {
+              "group": "Teacher",
+              "questionTag": "Tafelersatz",
+              "answer": 10
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "Tafelersatz",
+              "answer": 80
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "Tafelersatz",
+              "answer": 50
+            },
+            {
+              "group": "Principal",
+              "questionTag": "Tafelersatz",
+              "answer": 95
+            }
+          ]
+        },
+        {
+          "name": "Hybride Formen des Lehrens und Lernens",
+          "color": "#fbc02d",
+          "children": [],
+          "sourceData": [
+            {
+              "group": "Teacher",
+              "questionTag": "Tafelersatz",
+              "answer": 10
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "Tafelersatz",
+              "answer": 80
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "Tafelersatz",
+              "answer": 50
+            },
+            {
+              "group": "Principal",
+              "questionTag": "Tafelersatz",
+              "answer": 95
+            }
+          ]
+        },
+        {
+          "name": "Impulse für Schulinternes Curriculum",
+          "color": "#fbc02d",
+          "children": [],
+          "sourceData": [
+            {
+              "group": "Teacher",
+              "questionTag": "Tafelersatz",
+              "answer": 99
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "Tafelersatz",
+              "answer": 65
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "Tafelersatz",
+              "answer": 21
+            },
+            {
+              "group": "Principal",
+              "questionTag": "Tafelersatz",
+              "answer": 10
+            }
+          ]
+        },
+        {
+          "name": "Lernen in und außerhalb von Schule",
+          "color": "#fbc02d",
+          "children": [],
+          "sourceData": [
+            {
+              "group": "Teacher",
+              "questionTag": "Tafelersatz",
+              "answer": 35
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "Tafelersatz",
+              "answer": 40
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "Tafelersatz",
+              "answer": 20
+            },
+            {
+              "group": "Principal",
+              "questionTag": "Tafelersatz",
+              "answer": 20
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
