@@ -16,6 +16,12 @@
         <option>on</option>
       </select>
     </label>
+    <label> ShowLegend:
+      <select name="ShowLabel" v-model="legendDisplayHtml">
+        <option>off</option>
+        <option>on</option>
+      </select>
+    </label>
     <label> GroupToShow:
       <select v-model="groupToShow">
         <option v-for="group in pieRoot.sourceData.groupTags" :key="group">
@@ -63,9 +69,16 @@ export default class GradientNavigation extends Vue {
 
   @Watch("labelDisplayHtml")
   public labelDisplayHandler (newValue: String) {
-    console.log("...")
     this.options.series[0].label.show = newValue == "on";
     this.options.series[0].labelLine.show = newValue == "on";
+  }
+
+  public legendDisplayHtml = "on";
+
+  @Watch("legendDisplayHtml")
+  public legendDisplayHandler (newValue: String) {
+    this.options.legend.show = newValue == "on";
+    this.options.legend.show = newValue == "on";
   }
 
   public pieToShow = this.pieRoot;
@@ -109,6 +122,7 @@ export default class GradientNavigation extends Vue {
   public getOptions(): any {
     return {
       legend: {
+        show: false,
         orient: "horizontal",
         bottom: "0%",
         selectedMode: "false",

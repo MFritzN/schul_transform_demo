@@ -311,7 +311,7 @@ export default class PieLevel {
         name: {
           show: true,
           position: "outside",
-          formatter: "  {b|{value}}{abg|}  ",
+          formatter: "  {b|{value}}  ",
           backgroundColor: "#eee",
           borderColor: "#aaa",
           borderWidth: 1,
