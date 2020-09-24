@@ -162,7 +162,6 @@ export default class Dataset {
           max: 100,
           gridIndex: 0,
         },
-
       ],
       dataZoom: [
         {
@@ -254,7 +253,7 @@ export default class Dataset {
    * Layout is done by grid and radar.center. This is not reactive. Use a query for that.
    * @returns options including two series'. Legend is taken from boxplot and shared with radar series.
    */
-  public getAllOptions(lastPie: boolean) {
+  public getAllOptions() {
     const radarOptions = this.getRadarOptions();
     const boxplotOptions = this.getBoxplotOptions();
     const series = boxplotOptions.series; //@ts-ignore

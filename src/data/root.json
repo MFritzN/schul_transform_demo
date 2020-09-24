@@ -250,28 +250,117 @@
     },
     {
       "name": "Personalentwicklung und berufsbegleitende Professionalisierung",
-      "color": "#50AE32",
+      "color": "#E52420",
       "children": [
         {
           "name": "Kompetenzentwicklung für das Lernen und Lehren in der digitalen Welt",
-          "children": []
+          "children": [],
+          "sourceData": [
+            {
+              "group": "Teacher",
+              "questionTag": "Konzept 1",
+              "answer": 80
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "Konzept 1",
+              "answer": 50
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "Konzept 1",
+              "answer": 40
+            },
+            {
+              "group": "Principal",
+              "questionTag": "Konzept 1",
+              "answer": 20
+            }
+          ]
         },
         {
           "name": "Spezifische Weiter- und Fortbildungen",
-          "children": []
+          "children": [],
+          "sourceData": [
+            {
+              "group": "Teacher",
+              "questionTag": "Fortbildung 1",
+              "answer": 89
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "Fortbildung 1",
+              "answer": 11
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "Fortbildung 1",
+              "answer": 46
+            },
+            {
+              "group": "Principal",
+              "questionTag": "Fortbildung 1",
+              "answer": 43
+            }
+          ]
         },
         {
           "name": "Mikroschulungen und Peer to Peer Angebote",
-          "children": []
+          "children": [],
+          "sourceData": [
+            {
+              "group": "Teacher",
+              "questionTag": "Schulung 1",
+              "answer": 23
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "Schulung 1",
+              "answer": 11
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "Schulung 1",
+              "answer": 35
+            },
+            {
+              "group": "Principal",
+              "questionTag": "Schulung 1",
+              "answer": 23
+            }
+          ]
         },
         {
           "name": "Fortbildungskooperationen im Netzwerk",
-          "children": []
+          "children": [],
+          "sourceData": [
+            {
+              "group": "Teacher",
+              "questionTag": "Kooperation 1",
+              "answer": 50
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "Kooperation 1",
+              "answer": 70
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "Kooperation 1",
+              "answer": 80
+            },
+            {
+              "group": "Principal",
+              "questionTag": "Kooperation 1",
+              "answer": 10
+            }
+          ]
         }
       ]
     },
     {
       "name": "Schulische Lernräume (Ausstattung und Support)",
+      "color": "#50AE32",
       "children": [
         {
           "name": "Infrastruktur und Ausstattung",
@@ -510,7 +599,29 @@
           "children": [
             {
               "name": "Overhead",
-              "children": []
+              "children": [],
+              "sourceData": [
+                {
+                  "group": "Teacher",
+                  "questionTag": "Altes Modell",
+                  "answer": 32
+                },
+                {
+                  "group": "Teacher",
+                  "questionTag": "Altes Modell",
+                  "answer": 54
+                },
+                {
+                  "group": "Teacher",
+                  "questionTag": "Altes Modell",
+                  "answer": 67
+                },
+                {
+                  "group": "Principal",
+                  "questionTag": "Altes Modell",
+                  "answer": 23
+                }
+              ]
             },
             {
               "name": "Tafeln",
@@ -520,11 +631,55 @@
         },
         {
           "name": "Datenschutz (aktuelle Maßnahmen)",
-          "children": []
+          "children": [],
+          "sourceData": [
+            {
+              "group": "Teacher",
+              "questionTag": "Umsetzung",
+              "answer": 23
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "Umsetzung",
+              "answer": 64
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "Umsetzung",
+              "answer": 34
+            },
+            {
+              "group": "Principal",
+              "questionTag": "Umsetzung",
+              "answer": 89
+            }
+          ]
         },
         {
           "name": "Interoperabilität (aktuelle Maßnahmen)",
-          "children": []
+          "children": [],
+          "sourceData": [
+            {
+              "group": "Teacher",
+              "questionTag": "Relevanz",
+              "answer": 90
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "Relevanz",
+              "answer": 90
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "Relevanz",
+              "answer": 99
+            },
+            {
+              "group": "Principal",
+              "questionTag": "Relevanz",
+              "answer": 45
+            }
+          ]
         }
       ]
     },
@@ -539,66 +694,154 @@
             {
               "group": "Teacher",
               "questionTag": "Tafelersatz",
-              "answer": 10
+              "answer": 45
             },
             {
               "group": "Teacher",
               "questionTag": "Tafelersatz",
-              "answer": 80
+              "answer": 23
             },
             {
               "group": "Teacher",
               "questionTag": "Tafelersatz",
-              "answer": 50
+              "answer": 67
             },
             {
               "group": "Principal",
               "questionTag": "Tafelersatz",
-              "answer": 95
+              "answer": 35
             }
           ]
         },
         {
           "name": "Ausstattungsmodelle und Unterstützung",
           "children": [],
-          "sourcedata": [
+          "sourceData": [
             {
               "group": "Teacher",
               "questionTag": "Digitalanteil",
-              "answer": 60
+              "answer": 23
             },
             {
               "group": "Teacher",
               "questionTag": "Digitalanteil",
-              "answer": 50
+              "answer": 89
             },
             {
               "group": "Teacher",
               "questionTag": "Digitalanteil",
-              "answer": 40
+              "answer": 56
             },
             {
               "group": "Principal",
               "questionTag": "Digitalanteil",
-              "answer": 20
+              "answer": 54
             }
           ]
         },
         {
           "name": "Finanzierungsmodelle",
-          "children": []
+          "children": [],
+          "sourceData": [
+            {
+              "group": "Teacher",
+              "questionTag": "Spenden",
+              "answer": 34
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "Spenden",
+              "answer": 23
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "Spenden",
+              "answer": 45
+            },
+            {
+              "group": "Principal",
+              "questionTag": "Spenden",
+              "answer": 6
+            }
+          ]
         },
         {
           "name": "Ausgewählte Rechtsgrundlagen (Haftung)",
-          "children": []
+          "children": [],
+          "sourceData": [
+            {
+              "group": "Teacher",
+              "questionTag": "Versicherung",
+              "answer": 12
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "Versicherung",
+              "answer": 67
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "Versicherung",
+              "answer": 3
+            },
+            {
+              "group": "Principal",
+              "questionTag": "Versicherung",
+              "answer": 12
+            }
+          ]
         },
         {
           "name": "Datenschutz (aktuelle Maßnahmen)",
-          "children": []
+          "children": [],
+          "sourceData": [
+            {
+              "group": "Teacher",
+              "questionTag": "Relevanz",
+              "answer": 90
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "Relevanz",
+              "answer": 7
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "Relevanz",
+              "answer": 23
+            },
+            {
+              "group": "Principal",
+              "questionTag": "Relevanz",
+              "answer": 56
+            }
+          ]
         },
         {
           "name": "Interoperabilität (aktuelle Maßnahmen)",
-          "children": []
+          "children": [],
+          "sourceData": [
+            {
+              "group": "Teacher",
+              "questionTag": "Relevanz",
+              "answer": 32
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "Relevanz",
+              "answer": 56
+            },
+            {
+              "group": "Teacher",
+              "questionTag": "Relevanz",
+              "answer": 43
+            },
+            {
+              "group": "Principal",
+              "questionTag": "Relevanz",
+              "answer": 23
+            }
+          ]
         }
       ]
     },

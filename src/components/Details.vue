@@ -33,7 +33,7 @@ export default class Details extends Vue {
 
   @Prop() pieToShow!: PieLevel;
 
-  public options = this.pieToShow.sourceData!.getAllOptions(!!this.pieToShow.children.length);
+  public options = this.pieToShow.getAllDetails();
 
   get sourceData () {
     return this.pieToShow.sourceData;
@@ -45,7 +45,7 @@ export default class Details extends Vue {
 
   @Watch("pieToShow")
   pieToShowAdjust (newPieToShow: PieLevel) { //@ts-ignore
-    this.options = newPieToShow.sourceData?.getAllOptions(!!newPieToShow.children.length);
+    this.options = newPieToShow.getAllDetails();
   }
 }
 </script>

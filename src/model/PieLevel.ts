@@ -66,7 +66,7 @@ export default class PieLevel {
    */
   public getData(): Array<Data> {
     if (setting.NavigationChart.useValueForAngle) return this.children.map(child => new Data(child.value, child.name));
-    return  this.children.map(child => new Data(100, child.name))
+    return this.children.map(child => new Data(100, child.name))
   }
 
   /**
@@ -89,7 +89,7 @@ export default class PieLevel {
       return {
         name: this.name,
         type: 'pie',
-        data: [new Data (lowerSelected.value, lowerSelected.name)],
+        data: [new Data(lowerSelected.value, lowerSelected.name)],
         color: [lowerSelected.color],
         radius: [this.radiusMin[0] + "%", this.radiusMin[1] + "%"],
         hoverAnimation: false,
@@ -190,7 +190,7 @@ export default class PieLevel {
    * @param group Only use data from one group.
    * @returns {@link https://echarts.apache.org/en/option.html#series-pie.data ECharts series-pie.data}
    */
-  public getGradientChartData(standardPieAngleValue: number, width: number, height: number, greyCode: string, group?:string): Array<any> {
+  public getGradientChartData(standardPieAngleValue: number, width: number, height: number, greyCode: string, group?: string): Array<any> {
     return this.children.map(child => {
       return {
         value: standardPieAngleValue,
@@ -236,5 +236,152 @@ export default class PieLevel {
    */
   public getAverage(group?: string): number {
     return Dataset.computeAverage(this.sourceData!.getAnswers(undefined, group));
+  }
+
+  public getAllDetails(): any {
+    if (!this.children.length) {
+      return this.sourceData?.getAllOptions();
+    }
+    const res = {
+      title: {
+        text: "Radar and Boxplot",
+      },
+      tooltip: {
+        trigger: "item",
+        axisPointer: {
+          type: "shadow",
+        },
+      },
+      legend: {
+        data: ["Durchschnitt"].concat(this.sourceData!.groupTags),
+      },
+      grid: {
+        left: "0%",
+        right: "0%",
+        top: "50%",
+        bottom: "20%"
+      },
+      xAxis: [
+        {
+          type: "category",
+          data: this.children.map(child => child.name),
+          boundaryGap: true,
+          nameGap: 30,
+          splitArea: {
+            show: true,
+          },
+          axisLabel: {
+            formatter: "{value}",
+          },
+          splitLine: {
+            show: false,
+          },
+          gridIndex: 0,
+        },
+      ],
+      yAxis: [
+        {
+          type: "value",
+          name: "value",
+          splitArea: {
+            show: false,
+          },
+          min: 0,
+          max: 100,
+          gridIndex: 0,
+        },
+      ],
+      dataZoom: [
+        {
+          type: 'inside',
+          start: 0,
+          end: 20
+        },
+        {
+          show: true,
+          height: 20,
+          type: 'slider',
+          top: '90%',
+          xAxisIndex: [0],
+          start: 0,
+          end: 20
+        }
+      ],
+      radar: {
+        name: {
+          show: true,
+          position: "outside",
+          formatter: "  {b|{value}}{abg|}  ",
+          backgroundColor: "#eee",
+          borderColor: "#aaa",
+          borderWidth: 1,
+          borderRadius: 4,
+          rich: {
+            a: {
+              color: "#999",
+              lineHeight: 22,
+              align: "center",
+            },
+            hr: {
+              borderColor: "#aaa",
+              width: "100%",
+              borderWidth: 0.5,
+              height: 0,
+            },
+            b: {
+              fontSize: 16,
+              lineHeight: 33,
+            },
+            per: {
+              color: "#eee",
+              backgroundColor: "#334455",
+              padding: [2, 4],
+              borderRadius: 2,
+            },
+          },
+        },
+        indicator: this.children.map(child => {
+          return {name: child.name, max: 100, color: child.color}
+        }),
+        center: ["50%", "25%"],
+        radius: "30%",
+      },
+      series: [
+        {
+          name: "Radar",
+          type: "radar",
+          data: [
+            {
+              name: "Durchschnitt",
+              value: this.children.map(child => Dataset.computeAverage(child.sourceData!.getAnswers())),
+            }
+          ],
+        },
+        {
+          name: "Durchschnitt",
+          type: "boxplot",
+          xAxisIndex: 0,
+          yAxisIndex: 0,
+          data: this.children.map(child => child.sourceData!.boxplotValues(child.sourceData!.getAnswers())),
+          tooltip: {formatter: this.sourceData!.boxplotFormatter},
+        }
+      ] as Array<any>,
+    }
+    const self = this;
+    this.sourceData!.groupTags.forEach(group => {
+      res.series[0].data.push({
+        name: group,
+        value: self.children.map(child => Dataset.computeAverage(child.sourceData!.getAnswers(undefined, group))),
+      });
+      res.series.push({
+        name: group,
+        type: "boxplot",
+        xAxisIndex: 0,
+        yAxisIndex: 0,
+        data: self.children.map(child => self.sourceData!.boxplotValues(child.sourceData!.getAnswers(undefined, group))),
+        tooltip: {formatter: self.sourceData!.boxplotFormatter},
+      })
+    });
+    return res;
   }
 }
