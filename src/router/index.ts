@@ -10,8 +10,8 @@ Vue.use(VueRouter)
 const routes: Array<RouteConfig> = [
   {
     path: '/',
-    name: 'HelloWorld',
-    component: HelloWorld
+    name: 'GradientNavigation',
+    component: GradientNavigation
   },
   {
     path: '/navigationchart',
@@ -19,9 +19,9 @@ const routes: Array<RouteConfig> = [
     component: () => import('@/components/NavigationChart.vue')
   },
   {
-    path: '/gradientnavigation',
-    name: 'GradientNavigation',
-    component: () => import ('@/components/GradientNavigation.vue')
+    path: '/home',
+    name: 'home',
+    component: () => import ('@/components/HelloWorld.vue')
   },
   {
     path: '/sunburstNavigation',

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2><router-link to="/">Go Back</router-link></h2>
+    <h2><router-link to="/home">Go Back</router-link></h2>
     <h2>Sunburst as Navigation Chart</h2>
     <label>
       <input type="number" min="2" max="100" v-model="$store.state.visibleLevel">

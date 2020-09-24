@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2><router-link to="/">Go Back</router-link></h2>
+    <h2><router-link to="/home">Go Back</router-link></h2>
     <h2>Multi Level Pie as Nav Chart</h2>
     <chart
         flex
