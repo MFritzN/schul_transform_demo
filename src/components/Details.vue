@@ -8,8 +8,8 @@
         ref="boxplot"
         class="boxplot"
     />
-<!--    <button @click="highlight">highlight</button>-->
-<!--    <li v-for="item in rawArray" :key="item">{{ item }}</li>-->
+    <!--    <button @click="highlight">highlight</button>-->
+    <!--    <li v-for="item in rawArray" :key="item">{{ item }}</li>-->
   </div>
 </template>
 

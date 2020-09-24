@@ -256,8 +256,8 @@ export default class PieLevel {
         data: ["Durchschnitt"].concat(this.sourceData!.groupTags),
       },
       grid: {
-        left: "0%",
-        right: "0%",
+        left: "5%",
+        right: "5%",
         top: "50%",
         bottom: "20%"
       },
