@@ -73,7 +73,7 @@ export default class GradientNavigation extends Vue {
     this.options.series[0].labelLine.show = newValue == "on";
   }
 
-  public legendDisplayHtml = "on";
+  public legendDisplayHtml = "off";
 
   @Watch("legendDisplayHtml")
   public legendDisplayHandler (newValue: String) {
