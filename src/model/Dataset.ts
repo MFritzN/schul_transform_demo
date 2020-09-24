@@ -257,8 +257,8 @@ export default class Dataset {
     const radarOptions = this.getRadarOptions();
     const boxplotOptions = this.getBoxplotOptions();
     const series = boxplotOptions.series; //@ts-ignore
-    radarOptions.radar.center = ["70%", "50%"]; //@ts-ignore
-    radarOptions.radar.radius = "40%"; // @ts-ignore
+    radarOptions.radar.center = ["50%", "25%"]; //@ts-ignore
+    radarOptions.radar.radius = "30%"; // @ts-ignore
     series.push(radarOptions.series[0]);
     return {
       title: {
@@ -273,9 +273,9 @@ export default class Dataset {
       series: series,
       grid: {
         left: "5%",
-        right: "60%",
-        top: "60%",
-        bottom: "60%"
+        right: "5%",
+        top: "50%",
+        bottom: "20%"
       },
     }
   }

@@ -126,6 +126,7 @@ export default class GradientNavigation extends Vue {
         orient: "horizontal",
         bottom: "0%",
         selectedMode: "false",
+        selected: {},
       },
       series: [
         {
@@ -174,6 +175,8 @@ export default class GradientNavigation extends Vue {
   public rerender() {
     this.options = this.getOptions();
     this.dataClickedOn = -1;
+    this.labelDisplayHandler(this.labelDisplayHtml);
+    this.legendDisplayHandler(this.legendDisplayHtml);
   }
 
   public get pieRoot(): PieLevel {
@@ -191,7 +194,6 @@ export default class GradientNavigation extends Vue {
    * @param event {@link https://echarts.apache.org/en/api.html#events.Mouse%20events.click EChats click event}
    */
   public onClick(event: any) {
-    console.log(event);
     if (this.dataClickedOn >= 0 && this.detailedIndices.includes(event.dataIndex)) {
       this.subtopicClickHandler(event);
       return;
