@@ -382,6 +382,7 @@ export default class PieLevel {
         tooltip: {formatter: self.sourceData!.boxplotFormatter},
       })
     });
+    res.series.push(res.series.shift());
     return res;
   }
 }
