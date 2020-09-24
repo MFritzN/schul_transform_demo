@@ -11,22 +11,32 @@
           "children": [],
           "sourceData": [
             {
-              "group": "Teacher",
+              "group": "ich",
+              "questionTag": "PlanA",
+              "answer": 90
+            },
+            {
+              "group": "Schule",
               "questionTag": "PlanA",
               "answer": 60
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "PlanA",
               "answer": 50
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "PlanB",
               "answer": 40
             },
             {
-              "group": "Principal",
+              "group": "ich",
+              "questionTag": "PlanB",
+              "answer": 10
+            },
+            {
+              "group": "Schulträger",
               "questionTag": "PlanB",
               "answer": 20
             }
@@ -37,24 +47,29 @@
           "children": [],
           "sourceData": [
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Pausenhof",
               "answer": 100
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Pausenhof",
               "answer": 100
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Pausenhof",
               "answer": 20
             },
             {
-              "group": "Principal",
+              "group": "Schulträger",
               "questionTag": "Pausenhof",
               "answer": 20
+            },
+            {
+              "group": "ich",
+              "questionTag": "Pausenhof",
+              "answer": 30
             }
           ]
         },
@@ -63,22 +78,27 @@
           "children": [],
           "sourceData": [
             {
-              "group": "Teacher",
+              "group": "ich",
+              "questionTag": "E-Mail",
+              "answer": 30
+            },
+            {
+              "group": "Schule",
               "questionTag": "E-Mail",
               "answer": 60
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "E-Mail",
               "answer": 50
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "E-Mail",
               "answer": 40
             },
             {
-              "group": "Principal",
+              "group": "Schulträger",
               "questionTag": "E-Mail",
               "answer": 20
             }
@@ -89,22 +109,27 @@
           "children": [],
           "sourceData": [
             {
-              "group": "Teacher",
+              "group": "ich",
+              "questionTag": "Overhead Projektor",
+              "answer": 5
+            },
+            {
+              "group": "Schule",
               "questionTag": "Overhead Projektor",
               "answer": 85
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Overhead Projektor",
               "answer": 90
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Overhead Projektor",
               "answer": 80
             },
             {
-              "group": "Principal",
+              "group": "Schulträger",
               "questionTag": "Overhead Projektor",
               "answer": 20
             }
@@ -115,22 +140,27 @@
           "children": [],
           "sourceData": [
             {
-              "group": "Teacher",
+              "group": "ich",
+              "questionTag": "Eleternabend",
+              "answer": 34
+            },
+            {
+              "group": "Schule",
               "questionTag": "Eleternabend",
               "answer": 60
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Eleternabend",
               "answer": 50
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Eleternabend",
               "answer": 50
             },
             {
-              "group": "Principal",
+              "group": "Schulträger",
               "questionTag": "Eleternabend",
               "answer": 70
             }
@@ -141,22 +171,27 @@
           "children": [],
           "sourceData": [
             {
-              "group": "Teacher",
+              "group": "ich",
+              "questionTag": "Teams",
+              "answer": 5
+            },
+            {
+              "group": "Schule",
               "questionTag": "Teams",
               "answer": 20
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Teams",
               "answer": 15
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Teams",
               "answer": 10
             },
             {
-              "group": "Principal",
+              "group": "Schulträger",
               "questionTag": "Teams",
               "answer": 70
             }
@@ -173,22 +208,27 @@
           "children": [],
           "sourceData": [
             {
-              "group": "Teacher",
+              "group": "ich",
               "questionTag": "Fax Nutzung",
               "answer": 100
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Fax Nutzung",
               "answer": 100
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Fax Nutzung",
               "answer": 100
             },
             {
-              "group": "Principal",
+              "group": "Schule",
+              "questionTag": "Fax Nutzung",
+              "answer": 100
+            },
+            {
+              "group": "Schulträger",
               "questionTag": "Fax Nutzung",
               "answer": 100
             }
@@ -199,22 +239,27 @@
           "children": [],
           "sourceData": [
             {
-              "group": "Teacher",
+              "group": "ich",
+              "questionTag": "Planung",
+              "answer": 50
+            },
+            {
+              "group": "Schule",
               "questionTag": "Planung",
               "answer": 30
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Planung",
               "answer": 35
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Planung",
               "answer": 40
             },
             {
-              "group": "Principal",
+              "group": "Schulträger",
               "questionTag": "Planung",
               "answer": 55
             }
@@ -225,22 +270,27 @@
           "children": [],
           "sourceData": [
             {
-              "group": "Teacher",
+              "group": "ich",
+              "questionTag": "Planung",
+              "answer": 15
+            },
+            {
+              "group": "Schule",
               "questionTag": "Planung",
               "answer": 10
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Planung",
               "answer": 25
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Planung",
               "answer": 40
             },
             {
-              "group": "Principal",
+              "group": "Schulträger",
               "questionTag": "Planung",
               "answer": 77
             }
@@ -257,22 +307,27 @@
           "children": [],
           "sourceData": [
             {
-              "group": "Teacher",
+              "group": "ich",
+              "questionTag": "Konzept 1",
+              "answer": 75
+            },
+            {
+              "group": "Schule",
               "questionTag": "Konzept 1",
               "answer": 80
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Konzept 1",
               "answer": 50
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Konzept 1",
               "answer": 40
             },
             {
-              "group": "Principal",
+              "group": "Schulträger",
               "questionTag": "Konzept 1",
               "answer": 20
             }
@@ -283,22 +338,27 @@
           "children": [],
           "sourceData": [
             {
-              "group": "Teacher",
+              "group": "ich",
+              "questionTag": "Fortbildung 1",
+              "answer": 55
+            },
+            {
+              "group": "Schule",
               "questionTag": "Fortbildung 1",
               "answer": 89
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Fortbildung 1",
               "answer": 11
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Fortbildung 1",
               "answer": 46
             },
             {
-              "group": "Principal",
+              "group": "Schulträger",
               "questionTag": "Fortbildung 1",
               "answer": 43
             }
@@ -309,22 +369,27 @@
           "children": [],
           "sourceData": [
             {
-              "group": "Teacher",
+              "group": "ich",
+              "questionTag": "Schulung 1",
+              "answer": 67
+            },
+            {
+              "group": "Schule",
               "questionTag": "Schulung 1",
               "answer": 23
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Schulung 1",
               "answer": 11
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Schulung 1",
               "answer": 35
             },
             {
-              "group": "Principal",
+              "group": "Schulträger",
               "questionTag": "Schulung 1",
               "answer": 23
             }
@@ -335,22 +400,27 @@
           "children": [],
           "sourceData": [
             {
-              "group": "Teacher",
+              "group": "ich",
+              "questionTag": "Kooperation 1",
+              "answer": 76
+            },
+            {
+              "group": "Schule",
               "questionTag": "Kooperation 1",
               "answer": 50
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Kooperation 1",
               "answer": 70
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Kooperation 1",
               "answer": 80
             },
             {
-              "group": "Principal",
+              "group": "Schulträger",
               "questionTag": "Kooperation 1",
               "answer": 10
             }
@@ -373,202 +443,222 @@
                   "children": [],
                   "sourceData": [
                     {
-                      "group": "Teacher",
+                      "group": "ich",
+                      "questionTag": "WIFI Quality",
+                      "answer": 4
+                    },
+                    {
+                      "group": "Schule",
                       "questionTag": "WIFI Quality",
                       "answer": 10
                     },
                     {
-                      "group": "Teacher",
+                      "group": "Schule",
                       "questionTag": "WIFI Quality",
                       "answer": 15
                     },
                     {
-                      "group": "Teacher",
+                      "group": "Schule",
                       "questionTag": "WIFI Quality",
                       "answer": 20
                     },
                     {
-                      "group": "Teacher",
+                      "group": "Schule",
                       "questionTag": "WIFI Quality",
                       "answer": 18
                     },
                     {
-                      "group": "Teacher",
+                      "group": "Schule",
                       "questionTag": "WIFI Quality",
                       "answer": 11
                     },
                     {
-                      "group": "Teacher",
+                      "group": "Schule",
                       "questionTag": "WIFI Quality",
                       "answer": 13
                     },
                     {
-                      "group": "Teacher",
+                      "group": "Schule",
                       "questionTag": "WIFI Quality",
                       "answer": 50
                     },
                     {
-                      "group": "Principal",
+                      "group": "Schulträger",
                       "questionTag": "WIFI Quality",
                       "answer": 90
                     },
                     {
-                      "group": "Principal",
+                      "group": "Schulträger",
                       "questionTag": "WIFI Quality",
                       "answer": 85
                     },
                     {
-                      "group": "Principal",
+                      "group": "Schulträger",
                       "questionTag": "WIFI Quality",
                       "answer": 90
                     },
                     {
-                      "group": "Principal",
+                      "group": "Schulträger",
                       "questionTag": "WIFI Quality",
                       "answer": 86
                     },
                     {
-                      "group": "Principal",
+                      "group": "ich",
+                      "questionTag": "WIFI Speed",
+                      "answer": 20
+                    },
+                    {
+                      "group": "Schulträger",
                       "questionTag": "WIFI Speed",
                       "answer": 70
                     },
                     {
-                      "group": "Principal",
+                      "group": "Schulträger",
                       "questionTag": "WIFI Speed",
                       "answer": 80
                     },
                     {
-                      "group": "Principal",
+                      "group": "Schulträger",
                       "questionTag": "WIFI Speed",
                       "answer": 85
                     },
                     {
-                      "group": "Teacher",
+                      "group": "Schule",
                       "questionTag": "WIFI Speed",
                       "answer": 20
                     },
                     {
-                      "group": "Teacher",
+                      "group": "Schule",
                       "questionTag": "WIFI Speed",
                       "answer": 10
                     },
                     {
-                      "group": "Teacher",
+                      "group": "Schule",
                       "questionTag": "WIFI Speed",
                       "answer": 0
                     },
                     {
-                      "group": "Teacher",
+                      "group": "Schule",
                       "questionTag": "WIFI Speed",
                       "answer": 5
                     },
                     {
-                      "group": "Teacher",
+                      "group": "Schule",
                       "questionTag": "WIFI Speed",
                       "answer": 3
                     },
                     {
-                      "group": "Principal",
+                      "group": "Schulträger",
                       "questionTag": "WIFI Password",
                       "answer": 100
                     },
                     {
-                      "group": "Principal",
+                      "group": "ich",
+                      "questionTag": "WIFI Password",
+                      "answer": 10
+                    },
+                    {
+                      "group": "Schulträger",
                       "questionTag": "WIFI Password",
                       "answer": 95
                     },
                     {
-                      "group": "Principal",
+                      "group": "Schulträger",
                       "questionTag": "WIFI Password",
                       "answer": 90
                     },
                     {
-                      "group": "Teacher",
+                      "group": "Schule",
                       "questionTag": "WIFI Password",
                       "answer": 80
                     },
                     {
-                      "group": "Teacher",
+                      "group": "Schule",
                       "questionTag": "WIFI Password",
                       "answer": 90
                     },
                     {
-                      "group": "Teacher",
+                      "group": "Schule",
                       "questionTag": "WIFI Password",
                       "answer": 83
                     },
                     {
-                      "group": "Teacher",
+                      "group": "Schule",
                       "questionTag": "WIFI Password",
                       "answer": 87
                     },
                     {
-                      "group": "Teacher",
+                      "group": "Schule",
                       "questionTag": "WIFI Password",
                       "answer": 86
                     },
                     {
-                      "group": "Teacher",
+                      "group": "Schule",
                       "questionTag": "WIFI Password",
                       "answer": 95
                     },
                     {
-                      "group": "Principal",
+                      "group": "Schulträger",
                       "questionTag": "WIFI Usage",
                       "answer": 30
                     },
                     {
-                      "group": "Principal",
+                      "group": "Schulträger",
                       "questionTag": "WIFI Usage",
                       "answer": 35
                     },
                     {
-                      "group": "Principal",
+                      "group": "Schulträger",
                       "questionTag": "WIFI Usage",
                       "answer": 55
                     },
                     {
-                      "group": "Principal",
+                      "group": "Schulträger",
                       "questionTag": "WIFI Usage",
                       "answer": 45
                     },
                     {
-                      "group": "Teacher",
+                      "group": "Schule",
                       "questionTag": "WIFI Usage",
                       "answer": 80
                     },
                     {
-                      "group": "Teacher",
+                      "group": "Schule",
                       "questionTag": "WIFI Usage",
                       "answer": 15
                     },
                     {
-                      "group": "Teacher",
+                      "group": "Schule",
                       "questionTag": "WIFI Usage",
                       "answer": 20
                     },
                     {
-                      "group": "Teacher",
+                      "group": "Schule",
                       "questionTag": "WIFI Usage",
                       "answer": 40
                     },
                     {
-                      "group": "Teacher",
+                      "group": "Schule",
                       "questionTag": "WIFI Usage",
                       "answer": 35
                     },
                     {
-                      "group": "Teacher",
+                      "group": "ich",
+                      "questionTag": "WIFI Usage",
+                      "answer": 85
+                    },
+                    {
+                      "group": "Schule",
                       "questionTag": "WIFI Usage",
                       "answer": 30
                     },
                     {
-                      "group": "Teacher",
+                      "group": "Schule",
                       "questionTag": "WIFI Usage",
                       "answer": 50
                     },
                     {
-                      "group": "Teacher",
+                      "group": "Schule",
                       "questionTag": "WIFI Usage",
                       "answer": 5
                     }
@@ -602,22 +692,27 @@
               "children": [],
               "sourceData": [
                 {
-                  "group": "Teacher",
-                  "questionTag": "Altes Modell",
-                  "answer": 32
-                },
-                {
-                  "group": "Teacher",
+                  "group": "ich",
                   "questionTag": "Altes Modell",
                   "answer": 54
                 },
                 {
-                  "group": "Teacher",
+                  "group": "Schule",
+                  "questionTag": "Altes Modell",
+                  "answer": 32
+                },
+                {
+                  "group": "Schule",
+                  "questionTag": "Altes Modell",
+                  "answer": 54
+                },
+                {
+                  "group": "Schule",
                   "questionTag": "Altes Modell",
                   "answer": 67
                 },
                 {
-                  "group": "Principal",
+                  "group": "Schulträger",
                   "questionTag": "Altes Modell",
                   "answer": 23
                 }
@@ -634,22 +729,27 @@
           "children": [],
           "sourceData": [
             {
-              "group": "Teacher",
+              "group": "ich",
+              "questionTag": "Umsetzung",
+              "answer": 33
+            },
+            {
+              "group": "Schule",
               "questionTag": "Umsetzung",
               "answer": 23
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Umsetzung",
               "answer": 64
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Umsetzung",
               "answer": 34
             },
             {
-              "group": "Principal",
+              "group": "Schulträger",
               "questionTag": "Umsetzung",
               "answer": 89
             }
@@ -660,22 +760,27 @@
           "children": [],
           "sourceData": [
             {
-              "group": "Teacher",
+              "group": "ich",
+              "questionTag": "Relevanz",
+              "answer": 34
+            },
+            {
+              "group": "Schule",
               "questionTag": "Relevanz",
               "answer": 90
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Relevanz",
               "answer": 90
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Relevanz",
               "answer": 99
             },
             {
-              "group": "Principal",
+              "group": "Schulträger",
               "questionTag": "Relevanz",
               "answer": 45
             }
@@ -692,22 +797,27 @@
           "children": [],
           "sourceData": [
             {
-              "group": "Teacher",
-              "questionTag": "Tafelersatz",
-              "answer": 45
-            },
-            {
-              "group": "Teacher",
+              "group": "ich",
               "questionTag": "Tafelersatz",
               "answer": 23
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
+              "questionTag": "Tafelersatz",
+              "answer": 45
+            },
+            {
+              "group": "Schule",
+              "questionTag": "Tafelersatz",
+              "answer": 23
+            },
+            {
+              "group": "Schule",
               "questionTag": "Tafelersatz",
               "answer": 67
             },
             {
-              "group": "Principal",
+              "group": "Schulträger",
               "questionTag": "Tafelersatz",
               "answer": 35
             }
@@ -718,22 +828,27 @@
           "children": [],
           "sourceData": [
             {
-              "group": "Teacher",
+              "group": "ich",
+              "questionTag": "Digitalanteil",
+              "answer": 50
+            },
+            {
+              "group": "Schule",
               "questionTag": "Digitalanteil",
               "answer": 23
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Digitalanteil",
               "answer": 89
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Digitalanteil",
               "answer": 56
             },
             {
-              "group": "Principal",
+              "group": "Schulträger",
               "questionTag": "Digitalanteil",
               "answer": 54
             }
@@ -744,22 +859,27 @@
           "children": [],
           "sourceData": [
             {
-              "group": "Teacher",
+              "group": "ich",
+              "questionTag": "Spenden",
+              "answer": 50
+            },
+            {
+              "group": "Schule",
               "questionTag": "Spenden",
               "answer": 34
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Spenden",
               "answer": 23
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Spenden",
               "answer": 45
             },
             {
-              "group": "Principal",
+              "group": "Schulträger",
               "questionTag": "Spenden",
               "answer": 6
             }
@@ -770,22 +890,27 @@
           "children": [],
           "sourceData": [
             {
-              "group": "Teacher",
+              "group": "ich",
+              "questionTag": "Versicherung",
+              "answer": 33
+            },
+            {
+              "group": "Schule",
               "questionTag": "Versicherung",
               "answer": 12
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Versicherung",
               "answer": 67
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Versicherung",
               "answer": 3
             },
             {
-              "group": "Principal",
+              "group": "Schulträger",
               "questionTag": "Versicherung",
               "answer": 12
             }
@@ -796,22 +921,22 @@
           "children": [],
           "sourceData": [
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Relevanz",
               "answer": 90
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Relevanz",
               "answer": 7
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Relevanz",
               "answer": 23
             },
             {
-              "group": "Principal",
+              "group": "Schulträger",
               "questionTag": "Relevanz",
               "answer": 56
             }
@@ -822,22 +947,22 @@
           "children": [],
           "sourceData": [
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Relevanz",
               "answer": 32
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Relevanz",
               "answer": 56
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Relevanz",
               "answer": 43
             },
             {
-              "group": "Principal",
+              "group": "Schulträger",
               "questionTag": "Relevanz",
               "answer": 23
             }
@@ -854,22 +979,22 @@
           "children": [],
           "sourceData": [
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Tafelersatz",
               "answer": 10
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Tafelersatz",
               "answer": 80
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Tafelersatz",
               "answer": 50
             },
             {
-              "group": "Principal",
+              "group": "Schulträger",
               "questionTag": "Tafelersatz",
               "answer": 95
             }
@@ -880,22 +1005,22 @@
           "children": [],
           "sourceData": [
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Digitalanteil",
               "answer": 60
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Digitalanteil",
               "answer": 50
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Digitalanteil",
               "answer": 40
             },
             {
-              "group": "Principal",
+              "group": "Schulträger",
               "questionTag": "Digitalanteil",
               "answer": 20
             }
@@ -906,22 +1031,22 @@
           "children": [],
           "sourceData": [
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Tafelersatz",
               "answer": 10
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Tafelersatz",
               "answer": 80
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Tafelersatz",
               "answer": 50
             },
             {
-              "group": "Principal",
+              "group": "Schulträger",
               "questionTag": "Tafelersatz",
               "answer": 95
             }
@@ -932,22 +1057,22 @@
           "children": [],
           "sourceData": [
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Tafelersatz",
               "answer": 10
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Tafelersatz",
               "answer": 80
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Tafelersatz",
               "answer": 50
             },
             {
-              "group": "Principal",
+              "group": "Schulträger",
               "questionTag": "Tafelersatz",
               "answer": 95
             }
@@ -958,22 +1083,22 @@
           "children": [],
           "sourceData": [
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Tafelersatz",
               "answer": 99
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Tafelersatz",
               "answer": 65
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Tafelersatz",
               "answer": 21
             },
             {
-              "group": "Principal",
+              "group": "Schulträger",
               "questionTag": "Tafelersatz",
               "answer": 10
             }
@@ -984,22 +1109,22 @@
           "children": [],
           "sourceData": [
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Tafelersatz",
               "answer": 35
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Tafelersatz",
               "answer": 40
             },
             {
-              "group": "Teacher",
+              "group": "Schule",
               "questionTag": "Tafelersatz",
               "answer": 20
             },
             {
-              "group": "Principal",
+              "group": "Schulträger",
               "questionTag": "Tafelersatz",
               "answer": 20
             }
