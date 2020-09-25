@@ -1,5 +1,5 @@
-<template>
-  <div>
+<template style="width: 100%">
+  <div style="width: 100%">
     <h2>
       <router-link to="/">Go Back</router-link>
     </h2>
@@ -32,18 +32,45 @@
     </label>
     Reset/Zurück:
     <button @click="rerender"> reset</button>
-    <chart
-        :options="options"
-        ref="pie"
-        flex
-        @click="onClick"
-        @legendselectchanged="legendSelectHandler"
-        :init-options="initOptions"
-        style="height: 1000px"
-    />
-    <Details v-if="pieToShow.sourceData.sourceData.length" :pie-to-show="pieToShow"/>
+    <div class="trickLine">
+        <div class="useAll" ref="container" id="container">
+          <chart
+              :options="options"
+              ref="pie"
+              flex
+              @click="onClick"
+              @legendselectchanged="legendSelectHandler"
+              :init-options="initOptions"
+              class="echarts"
+          />
+        </div>
+    </div>
+    <Details v-if="pieToShow.sourceData.sourceData.length" :pie-to-show="pieToShow" class="trickLine"/>
   </div>
 </template>
+
+<style lang="scss">
+.trickLine {
+  width: 100%;
+  position: relative;
+  padding-top: 100%;
+}
+
+.useAll {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.echarts {
+  height: 100%;
+  width: 100%;
+}
+</style>
 
 <script lang="ts">
 /* eslint-disable @typescript-eslint/no-non-null-assertion */
@@ -108,8 +135,6 @@ export default class GradientNavigation extends Vue {
 
   public initOptions = {
     renderer: "canvas",
-    width: 1000,
-    height: 1000,
   }
 
   public options = this.getOptions();
@@ -307,7 +332,7 @@ export default class GradientNavigation extends Vue {
       name: selected,
     })
     this.options.animation = true;
-    this.onClick({dataIndex: this.options.series[0].data.findIndex((dataElement :any) => dataElement.name == selected)});
+    this.onClick({dataIndex: this.options.series[0].data.findIndex((dataElement: any) => dataElement.name == selected)});
   }
 }
 </script>

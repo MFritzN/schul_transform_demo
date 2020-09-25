@@ -1,10 +1,10 @@
-<template>
-  <div>
+<template class="useAll">
+  <div class="useAll">
     <h2>Details / {{pieToShow.name}}</h2>
     <chart
         flex
         :options="options"
-        :init-options="$store.state.initOptions"
+        :init-options="{renderer: 'canvas'}"
         ref="boxplot"
         class="boxplot"
     />
@@ -50,8 +50,15 @@ export default class Details extends Vue {
 }
 </script>
 <style scoped>
+.useAll {
+  width: 100%;
+  height: 100%;
+}
+
 .boxplot {
   float: left;
+  width: 100%;
+  height: 100%;
 }
 .radar {
   float: left;

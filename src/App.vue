@@ -1,7 +1,7 @@
-<template>
+<template style="width: 100%">
   <div id="app">
     <h1> Schultransform Demo </h1>
-    <router-view style="width: 1000px"/>
+    <router-view style="width: 100%"/>
   </div>
 </template>
 
