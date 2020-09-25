@@ -3,7 +3,7 @@
     <h2>ECharts Demo</h2>
     <ul>
       <li><router-link to="/navigationchart">Navigation Chart</router-link></li>
-      <li><router-link to="/">Gradient Navigation</router-link></li>
+      <li><router-link to="/gradientnavigation">Gradient Navigation</router-link></li>
 <!--      <li><router-link to="/sunburstNavigation">Sunburst Navigation</router-link></li>-->
     </ul>
   </div>

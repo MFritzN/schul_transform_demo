@@ -1,7 +1,7 @@
 <template>
   <div>
     <h2>
-      <router-link to="/home">Go Back</router-link>
+      <router-link to="/">Go Back</router-link>
     </h2>
     <h2> Gradient Navigation </h2>
     <label> ChartType:
