@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <h1> Schultransform Demo </h1>
-    <router-view />
+    <router-view style="width: 1000px"/>
   </div>
 </template>
 

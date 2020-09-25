@@ -25,22 +25,23 @@
     <label> GroupToShow:
       <select v-model="groupToShow">
         <option v-for="group in pieRoot.sourceData.groupTags" :key="group">
-          {{group}}
+          {{ group }}
         </option>
         <option>total</option>
       </select>
     </label>
-    Reset/Zurück: <button @click="rerender"> reset </button>
+    Reset/Zurück:
+    <button @click="rerender"> reset</button>
     <chart
-      :options="options"
-      ref="pie"
-      flex
-      @click="onClick"
-      @legendselectchanged="legendSelectHandler"
-      style="height: 1000px"
-      :init-options="initOptions"
+        :options="options"
+        ref="pie"
+        flex
+        @click="onClick"
+        @legendselectchanged="legendSelectHandler"
+        :init-options="initOptions"
+        style="height: 1000px"
     />
-    <Boxplot v-if="pieToShow.sourceData.sourceData.length" :pie-to-show="pieToShow"/>
+    <Details v-if="pieToShow.sourceData.sourceData.length" :pie-to-show="pieToShow"/>
   </div>
 </template>
 
@@ -59,7 +60,7 @@ const GREYCODE = "#e0e0e0";
 
 @Component({
   components: {
-    Boxplot: Details,
+    Details: Details,
     chart: ECharts
   }
 })
@@ -68,7 +69,7 @@ export default class GradientNavigation extends Vue {
   public labelDisplayHtml = "on";
 
   @Watch("labelDisplayHtml")
-  public labelDisplayHandler (newValue: String) {
+  public labelDisplayHandler(newValue: String) {
     this.options.series[0].label.show = newValue == "on";
     this.options.series[0].labelLine.show = newValue == "on";
   }
@@ -76,7 +77,7 @@ export default class GradientNavigation extends Vue {
   public legendDisplayHtml = "off";
 
   @Watch("legendDisplayHtml")
-  public legendDisplayHandler (newValue: String) {
+  public legendDisplayHandler(newValue: String) {
     this.options.legend.show = newValue == "on";
     this.options.legend.show = newValue == "on";
   }
@@ -107,8 +108,8 @@ export default class GradientNavigation extends Vue {
 
   public initOptions = {
     renderer: "canvas",
-    height: this.height,
-    width: this.width,
+    width: 1000,
+    height: 1000,
   }
 
   public options = this.getOptions();
@@ -202,37 +203,39 @@ export default class GradientNavigation extends Vue {
       if (this.dataClickedOn >= 0) event.dataIndex = this.undoLastSelection(event);
       const clickedPieLevelChildren = this.pieRoot.children[event.dataIndex].children;
       this.options.series[0].data.splice(
-        event.dataIndex,
-        1,
-        ...clickedPieLevelChildren
-          .map((child: PieLevel) => {
-              return {
-                selected: this.chartType != "rose",
-                value: this.chartType != "rose" ? this.value / clickedPieLevelChildren.length : this.value * 1.2,
-                name: child.name,
-                itemStyle: {
-                  color: {
-                    type: "radial",
-                    x: this.width / 2,
-                    y: this.height / 2,
-                    r: Math.min(this.width, this.height) / 4,
-                    colorStops: [{
-                      offset: 0, color: child.color
-                    }, {
-                      offset: child.getAverage(this.groupToShow != "total" ? this.groupToShow : undefined) / 100, color: child.color
-                    }, {
-                      offset: child.getAverage(this.groupToShow != "total" ? this.groupToShow : undefined) / 100, color: GREYCODE
-                    }, {
-                      offset: 1, color: GREYCODE
-                    }, {
-                      offset: 1, color: child.color
-                    },],
-                    global: true //Use Global Coords, meaning the radial gradient is placed around the global center of the pie, because x and y are the global coordinates
+          event.dataIndex,
+          1,
+          ...clickedPieLevelChildren
+              .map((child: PieLevel) => {
+                    return {
+                      selected: this.chartType != "rose",
+                      value: this.chartType != "rose" ? this.value / clickedPieLevelChildren.length : this.value * 1.2,
+                      name: child.name,
+                      itemStyle: {
+                        color: {
+                          type: "radial",
+                          x: this.width / 2,
+                          y: this.height / 2,
+                          r: Math.min(this.width, this.height) / 4,
+                          colorStops: [{
+                            offset: 0, color: child.color
+                          }, {
+                            offset: child.getAverage(this.groupToShow != "total" ? this.groupToShow : undefined) / 100,
+                            color: child.color
+                          }, {
+                            offset: child.getAverage(this.groupToShow != "total" ? this.groupToShow : undefined) / 100,
+                            color: GREYCODE
+                          }, {
+                            offset: 1, color: GREYCODE
+                          }, {
+                            offset: 1, color: child.color
+                          },],
+                          global: true //Use Global Coords, meaning the radial gradient is placed around the global center of the pie, because x and y are the global coordinates
+                        }
+                      }
+                    }
                   }
-                }
-              }
-            }
-          )
+              )
       );
       this.dataClickedOn = event.dataIndex;
       this.pieToShow = this.pieRoot.children[event.dataIndex];
@@ -266,14 +269,14 @@ export default class GradientNavigation extends Vue {
    */
   public undoLastSelection(event: any): number {
     this.options.series[0].data?.splice(
-      this.dataClickedOn,
-      this.detailedIndices.length,
-      this.pieRoot.getGradientChartData(
-        this.value,
-        this.width,
-        this.height,
-        GREYCODE
-      )[this.dataClickedOn]
+        this.dataClickedOn,
+        this.detailedIndices.length,
+        this.pieRoot.getGradientChartData(
+            this.value,
+            this.width,
+            this.height,
+            GREYCODE
+        )[this.dataClickedOn]
     );
     if (event.dataIndex > this.dataClickedOn) event.dataIndex -= this.detailedIndices.length - 1;
     this.dataClickedOn = -1;
@@ -291,11 +294,20 @@ export default class GradientNavigation extends Vue {
     return res;
   }
 
-  public legendSelectHandler(event:any) {
+  /**
+   * Prevents standard echarts LegendClick event (hiding selected) and executes {@link onClick}
+   * @param event
+   * @see https://echarts.apache.org/en/api.html#events.legendselectchanged LegendSelectChanged Event
+   */
+  public legendSelectHandler(event: any) {
     this.options.animation = false;
-    const selected = event.name;
-    this.options.legend.selected[selected] = true;
+    const selected = event.name; // @ts-ignore
+    this.$refs.pie.dispatchAction({
+      type: 'legendSelect',
+      name: selected,
+    })
     this.options.animation = true;
+    this.onClick({dataIndex: this.options.series[0].data.findIndex((dataElement :any) => dataElement.name == selected)});
   }
 }
 </script>

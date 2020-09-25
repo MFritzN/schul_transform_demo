@@ -238,6 +238,12 @@ export default class PieLevel {
     return Dataset.computeAverage(this.sourceData!.getAnswers(undefined, group));
   }
 
+
+  /**
+   * Returns options for the {@link @/components/Details.vue Details} Component.
+   * If this has no children, a similar function in {@link @/src/model/Dataset Dataset} is called which returns Data sorted to single Question Tags instead of PieLevel.children names.
+   * @see getAllOptions
+   */
   public getAllDetails(): any {
     if (!this.children.length) {
       return this.sourceData?.getAllOptions();

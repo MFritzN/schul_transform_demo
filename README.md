@@ -1,8 +1,15 @@
-# 2nd-schul-transform-demo
+# schul_transform_demo
 
 ## Project setup
+
+#### install dependencies
 ```shell script
 npm install
+```
+
+#### run local development server
+```shell script
+npm serve
 ```
 
 ## Konzept

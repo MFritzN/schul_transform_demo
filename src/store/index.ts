@@ -11,8 +11,8 @@ export default new Vuex.Store({
     visibleLevel: 100 as number,
     initOptions: {
       renderer: "canvas",
-      width: 1000,
-      height: 1000,
+      width: "1000",
+      height: "1000"
     },
     selectedPie: [PieLevelImport.getRootPie(), null, null, null, null, null, null],
   },

@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import VueRouter, { RouteConfig } from 'vue-router'
-import Home from '../views/Home.vue'
 import NavigationChart from "@/components/NavigationChart.vue";
 import GradientNavigation from "@/components/GradientNavigation.vue";
 import HelloWorld from "@/components/HelloWorld.vue";
@@ -31,7 +30,6 @@ const routes: Array<RouteConfig> = [
 ]
 
 const router = new VueRouter({
-  mode: 'history',
   base: process.env.BASE_URL,
   routes
 })
